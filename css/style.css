@@ -1,0 +1,44 @@
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url('../img/matrix.jpg');
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.mrgtop{
+  margin-top: 20%;
+}
+.mrgtop1{
+  margin-top: 8%;
+}
+i:hover{
+  background-color: red;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
